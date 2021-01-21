@@ -15,36 +15,36 @@ Olimpia Milano - Cantù | 55 - 60
 $matches = [
   [
 
-      "homeTeam" => "Nets",
-      "scoreHome" => "130",
-      "guestTeam" => "Jazz",
-      "scoreGuest" => "95",
+    "homeTeam" => "Nets",
+    "scoreHome" => "130",
+    "guestTeam" => "Jazz",
+    "scoreGuest" => "95",
   ],
 
   [
 
-      "homeTeam" => "Griezzlies",
-      "scoreHome" => "92",
-      "guestTeam" => "Lakers",
-      "scoreGuest" => "95",
-
-  ],
-
-  [
-
-      "homeTeam" => "Raptor",
-      "scoreHome" => "85",
-      "guestTeam" => "Chicago Bulls",
-      "scoreGuest" => "110",
+    "homeTeam" => "Griezzlies",
+    "scoreHome" => "92",
+    "guestTeam" => "Lakers",
+    "scoreGuest" => "95",
 
   ],
 
   [
 
-      "homeTeam" => "Celtics",
-      "scoreHome" => "115",
-      "guestTeam" => "Clippers",
-      "scoreGuest" => "95",
+    "homeTeam" => "Raptor",
+    "scoreHome" => "85",
+    "guestTeam" => "Chicago Bulls",
+    "scoreGuest" => "110",
+
+  ],
+
+  [
+
+    "homeTeam" => "Celtics",
+    "scoreHome" => "115",
+    "guestTeam" => "Clippers",
+    "scoreGuest" => "95",
 
   ],
 

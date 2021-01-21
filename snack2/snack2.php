@@ -20,14 +20,13 @@ if ( empty($userName) && empty($userMail) && empty($useraAge) ){
 } else  {
   $message = "accesso consentito";
   if (strlen($userName) <= 3) {
-    $message = "accesso negato";
+    $message = "accesso negato - nome non corretto";
   } elseif (strpos($userMail, "@") == false || strpos($userMail, ".") == false){
-    $message = "accesso negato";
+    $message = "accesso negato - email non corretta";
   } elseif (is_numeric($useraAge) == false){
-    $message = "accesso negato";
+    $message = "accesso negato -  età non corretta";
   }
 }
-
  ?>
 
 
