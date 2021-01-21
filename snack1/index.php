@@ -14,50 +14,37 @@ Olimpia Milano - Cantù | 55 - 60
 
 $matches = [
   [
-    "home" => [
-      "team" => "Nets",
-      "score" => "130",
-    ],
-    "guest" => [
-      "team" => "Jazz",
-      "95",
-    ],
+
+      "homeTeam" => "Nets",
+      "scoreHome" => "130",
+      "guestTeam" => "Jazz",
+      "scoreGuest" => "95",
+  ],
+
+  [
+
+      "homeTeam" => "Griezzlies",
+      "scoreHome" => "92",
+      "guestTeam" => "Lakers",
+      "scoreGuest" => "95",
 
   ],
 
   [
-    "home" => [
-      "team" => "Griezzlies",
-      "score" => "92",
-    ],
-    "guest" => [
-      "team" => "Lakers",
-      "score" => "95",
-    ],
+
+      "homeTeam" => "Raptor",
+      "scoreHome" => "85",
+      "guestTeam" => "Chicago Bulls",
+      "scoreGuest" => "110",
 
   ],
 
   [
-    "home" => [
-      "team" => "Raptor",
-      "score" => "85",
-    ],
-    "guest" => [
-      "team" => "Chicago Bulls",
-      "score" => "110",
-    ],
 
-  ],
-
-  [
-    "home" => [
-      "team" => "Celtics",
-      "score" => "115",
-    ],
-    "guest" => [
-      "team" => "Clippers",
-      "score" => "95",
-    ],
+      "homeTeam" => "Celtics",
+      "scoreHome" => "115",
+      "guestTeam" => "Clippers",
+      "scoreGuest" => "95",
 
   ],
 
@@ -76,15 +63,12 @@ $matches = [
 
      <ul>
        <?php
-        for($i = 0; $i < count($matches); $i++) {
-          $homeSide = $matches[$i]["home"]["team"];
-          $guestSide = $matches[$i]["guest"]["team"];
-          $homeScore = $matches[$i]["home"]["score"];
-          $guestScore = $matches[$i]["guest"]["score"];
+        for($i = 0; $i < count($matches); $i++) {?>
 
-          echo "<li>".$homeSide." - ".$guestSide." | ".$homeScore." - ".$guestScore."</li>";
-        }
-      ?>
+        <li><?php echo $matches[$i]["homeTeam"]." - ".$matches[$i]["guestTeam"]." | ".$matches[$i]["scoreHome"]." - ".$matches[$i]["scoreGuest"]; ?></li>
+
+      <?php } ?>
+
 
 
      </ul>
